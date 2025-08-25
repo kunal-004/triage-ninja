@@ -2,8 +2,8 @@ import asyncio
 import logging
 import os
 from typing import Dict, Any, Optional
-from dotenv import load_dotenv
-from portia import Config, Portia, DefaultToolRegistry, LogLevel
+from dotenv import load_dotenv # type: ignore
+from portia import Config, Portia, DefaultToolRegistry, LogLevel # type: ignore
 
 import config
 from tools.ai_tools_portia import ai_manager
@@ -43,7 +43,7 @@ class SophisticatedTriageAgent:
         try:
             # Set the API key for Gemini
             if config.GEMINI_API_KEY:
-                import google.generativeai as genai
+                import google.generativeai as genai # type: ignore
                 genai.configure(api_key=config.GEMINI_API_KEY)
             
             if config.PORTIA_API_KEY:
