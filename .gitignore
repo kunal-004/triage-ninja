@@ -1,0 +1,6 @@
+venv
+.env
+portia-agent-examples/
+__pycache__/
+.portia/
+diagram.png

@@ -1,0 +1,7 @@
+portia-sdk-python[google]>=0.7.0
+flask>=2.3.0
+weaviate-client>=4.0.0
+google-generativeai>=0.3.0
+PyGithub>=1.59.0
+discord.py>=2.3.0
+python-dotenv>=1.0.0
